@@ -1,5 +1,4 @@
 .debug{
-  /* min-height: 80px; */
   background: rgba(255, 0, 0, 0.3);
   border: 1px dashed black;
 }
@@ -12,4 +11,10 @@ header{
 .ms-cont{
   max-width: 1160px;
   margin: 0 auto;
+}
+
+.ms-jumbotron{
+  background: #1ABC9C;
+  height: 490px; /* debug purpose */
+  color: white;
 }
