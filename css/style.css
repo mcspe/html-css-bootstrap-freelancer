@@ -14,8 +14,9 @@ header{
   margin: 0 auto;
 }
 
-.ms-jumbotron{
+section:nth-child(odd){
   background: #1ABC9C;
-  height: 490px; /* debug purpose */
+  height: 490px; /*debug purpose*/
   color: white;
 }
+
