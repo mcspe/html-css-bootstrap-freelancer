@@ -1,0 +1,15 @@
+.debug{
+  /* min-height: 80px; */
+  background: rgba(255, 0, 0, 0.3);
+  border: 1px dashed black;
+}
+
+header{
+  background: #2C3E50;
+  height: 80px;
+}
+
+.ms-cont{
+  max-width: 1160px;
+  margin: 0 auto;
+}
