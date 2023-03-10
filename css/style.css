@@ -14,9 +14,17 @@ header{
   margin: 0 auto;
 }
 
-section:nth-child(odd){
+main section:nth-child(odd){
   background: #1ABC9C;
   /* height: 490px; debug purpose */
   color: white;
+}
+
+.ms-info{
+  background: #3A546D;
+}
+
+.ms-copyright{
+  background: #2C3E50;
 }
 
