@@ -11,26 +11,17 @@ header{
 }
 
 .title {
-  font-size: calc(1rem + 1.5vw);
-}
-
-/*@media (max-width: 992px) {
-  .title {
-    font-size: 1.1rem;
-  }
-} */
-
-.ms-container{
-  max-width: 1160px;
-  margin: 0 auto;
+  font-size: calc(100% + 1.5vw);
 }
 
 .ms-btn{
   border: 1px solid white;
 }
 
-.ms-nav{
-  
+.ms-line{
+  height: 5px;
+  background: white;
+  border-radius: 5px;
 }
 
 main section:nth-child(odd){
