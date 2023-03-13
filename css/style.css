@@ -4,6 +4,11 @@
   min-height: 50px;
 }
 
+img{
+  max-width: 100%;
+  object-fit: cover;
+}
+
 header{
   background: #2C3E50;
   height: 80px;
@@ -19,16 +24,30 @@ header{
 }
 
 .ms-line{
-  height: 5px;
+  height: 3px;
+  border-radius: 3px;
+}
+
+.ms-star-w .ms-line{
   background: white;
-  border-radius: 5px;
+}
+
+.ms-star-b .ms-line{
+  background: black;
 }
 
 main section:nth-child(odd){
   background: #1ABC9C;
-  /* height: 490px; debug purpose */
   color: white;
 }
+
+.ms-card{
+  cursor: pointer;
+}
+
+/* .ms-overlay{
+  background: blue;
+} */
 
 .ms-info{
   background: #3A546D;
