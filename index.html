@@ -8,6 +8,9 @@
 
   <title>Freelancer</title>
 
+  <!-- FONT AWESOME -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
+
   <!-- BOOTSTRAP -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
 
@@ -19,18 +22,32 @@
 
   <header>
 
-    <div class="ms-container h-100">
+    <div class="container-md h-100">
 
-      <div class="container-md h-100">
+      <div class="row justify-content-between align-items-center h-100 text-uppercase fw-bold">
 
-        <div class="row justify-content-between align-items-center h-100">
-
-          <div class="col ms-logo debug">Logo</div>
-          <div class="col ms-hamb-menu text-end d-lg-none debug">H</div>
-          <div class="col ms-list-menu text-end d-none d-lg-block debug">List menu</div>
-          
+        <div class="col-9 col-md-6 ms-logo title">
+          <span>start bootstrap</span> 
         </div>
 
+        <div class="col ms-hamb-menu text-end d-lg-none">
+          <button type="button" class="ms-btn btn btn-outline-secondary"><i class="fa-solid fa-bars"></i></button>
+        </div>
+
+        <div class="col ms-list-menu text-end d-none d-lg-block">
+          <ul class="nav justify-content-end ms-nav">
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+          
       </div>
 
     </div>
@@ -75,12 +92,12 @@
 
           <div class="row">
 
-            <div class="col-md-6 col-xl-4 debug">image card</div>
-            <div class="col-md-6 col-xl-4 debug">image card</div>
-            <div class="col-md-6 col-xl-4 debug">image card</div>
-            <div class="col-md-6 col-xl-4 debug">image card</div>
-            <div class="col-md-6 col-xl-4 debug">image card</div>
-            <div class="col-md-6 col-xl-4 debug">image card</div>
+            <div class="col-md-6 col-lg-4 debug">image card</div>
+            <div class="col-md-6 col-lg-4 debug">image card</div>
+            <div class="col-md-6 col-lg-4 debug">image card</div>
+            <div class="col-md-6 col-lg-4 debug">image card</div>
+            <div class="col-md-6 col-lg-4 debug">image card</div>
+            <div class="col-md-6 col-lg-4 debug">image card</div>
 
           </div>
 

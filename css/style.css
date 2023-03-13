@@ -7,11 +7,30 @@
 header{
   background: #2C3E50;
   height: 80px;
+  color: white;
 }
+
+.title {
+  font-size: calc(1rem + 1.5vw);
+}
+
+/*@media (max-width: 992px) {
+  .title {
+    font-size: 1.1rem;
+  }
+} */
 
 .ms-container{
   max-width: 1160px;
   margin: 0 auto;
+}
+
+.ms-btn{
+  border: 1px solid white;
+}
+
+.ms-nav{
+  
 }
 
 main section:nth-child(odd){
